@@ -6,15 +6,18 @@
                                  a inserção de caracteres do tipo acento, como no pt-br-->
         <title> MSS Services</title>
 
-    </head>
+    </head>"
 
     <body>
         <nav>
             <P>MSS SERVIÇOS</P>
-            <ul>
-                <li>QUEM SOMOS</li>
-                <li>SERVIÇOS</li>
-                <li>CLIENTES</li>
+            <ul><!-- permite a inserção de ítens em uma lista-->
+                <li>QUEM SOMOS</li><!-- A tag li cria o ítem-->
+                <li><a href="#SERVICOS">SERVIÇOS</a></li><!-- nesse ponto a estrutura <
+                    a href= "#SERVICOS" busca na página a seção que detem este nome, 
+                    e leva o usuário diretamente para essa estrutura, 
+                    atentar para a utilização do caractere "#"-->
+                <li><a href="#CLIENTES">CLIENTES</a></li>
                 <li>PARCEIROS</li>
                 <li>TIME</li>
                 <li>CONTATO</Li>
@@ -23,13 +26,34 @@
         <p>Minha primeira pagina</p>>
 
         <header> 
-            <h1> Minha página</h1>
+            <h1> SERVIÇOS VETERINÁRIOS</h1>
             <p> 
-            oferecemos desenvolvimento de web services 
-            para sua empresa
+            Atendimento clínico veterinário 
             </p>
     </header>
+    <section id= "SERVICOS"><!--Uma seção que será criada,
+                            nesse caso a seção de serviços, 
+                            para isso utiliza-se a tag "id= " 
+                            que será responsável por nomear a estrutura 
+                            que está sendo referenciada nessa seção, e será buscada no índice-->
+            <h2> SERVIÇOS</h2><!-- a tag "h2" título em com tamanho 
+                            reduzido em relação ao primeiro-->
+            <p> Oferecemos atendimento clínico veterinário "
+                em domicílio em Uberlândia e região.
+            <div>
+            <img src="/home/max/DIO/aula_html5_css3/images/photography-of-three-dogs-looking-up-850602.jpg" width="300px">
+            </div>
 
+
+            </p>
+    </section>
+    <section id ="CLIENTES">
+        <h2> CLIENTES</h2>
+        <P> Satisfação garantida dos clientes</P>
+        <div>
+        <img src="/home/max/DIO/aula_html5_css3/images/long-coated-white-and-brown-dog-3215610.jpg" width="300px">
+        </div>
+    </section>
     
     <footer> 
         <p>desenvolvido por Max Silva

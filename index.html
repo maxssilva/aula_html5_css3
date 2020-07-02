@@ -5,12 +5,13 @@
         <meta charset="utf-8"><!--charset="utf-8" deixa possível
                                  a inserção de caracteres do tipo acento, como no pt-br-->
         <title> MSS Services</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"><!--esse link serve para adicionar a -->
 
     </head>"
 
     <body>
         <nav>
-            <P>MSS SERVIÇOS</P>
+            <p>MSS SERVIÇOS</p>
             <ul><!-- permite a inserção de ítens em uma lista-->
                 <li>QUEM SOMOS</li><!-- A tag li cria o ítem-->
                 <li><a href="#SERVICOS">SERVIÇOS</a></li><!-- nesse ponto a estrutura <
@@ -35,13 +36,17 @@
                             nesse caso a seção de serviços, 
                             para isso utiliza-se a tag "id= " 
                             que será responsável por nomear a estrutura 
+                            que está sendo referenciada nessa seção, e será buscada no índi
                             que está sendo referenciada nessa seção, e será buscada no índice-->
             <h2> SERVIÇOS</h2><!-- a tag "h2" título em com tamanho 
-                            reduzido em relação ao primeiro-->
-            <p> Oferecemos atendimento clínico veterinário "
+                reduzido em relação ao primeiro-->
+<p> Oferecemos atendimento clínico veterince-->
+            <h2> SERVIÇOS</h2><!-- a tag "h2" título em com tamanho 
+                reduzido em relação ao primeiro-->
+<p> Oferecemos atendimento clínico veterinário "
                 em domicílio em Uberlândia e região.
             <div>
-            <img src="/home/max/DIO/aula_html5_css3/images/photography-of-three-dogs-looking-up-850602.jpg" width="300px">
+            <img src="/home/max/DIO/aula_html5_css3/imagens/photography-of-three-dogs-looking-up-850602.jpg" class= "img_pdr">
             </div>
             </p>
             
@@ -50,16 +55,17 @@
         <h2> CLIENTES</h2>
         <P> Satisfação garantida dos clientes
         <div>
-        <img src="/home/max/DIO/aula_html5_css3/images/long-coated-white-and-brown-dog-3215610.jpg" width="300px">
+        <img src="/home/max/DIO/aula_html5_css3/imagens/long-coated-white-and-brown-dog-3215610.jpg"  class="img_pdr"> <!-- a inserção da tag class
+        é importante para a padronização das imagens no arquivo css-->
         </div>
+        <h2> PARCEIROS</h2>
         </P>
     </section>
 
     <section id= "PARCEIROS">
-        <h2> PARCEIROS</h2>
         <p>Disponibilizamos parceria com laboratórios de análise clínica de referência na região
         <div> 
-        <img src="/home/max/DIO/aula_html5_css3/images/woman-in-white-laboratory-gown-3735782.jpg" width="300px">
+        <img src="/home/max/DIO/aula_html5_css3/imagens/woman-in-white-laboratory-gown-3735782.jpg"  class="img_pdr">
         </div>
     </p>
     
@@ -68,13 +74,13 @@
         <P> Entre em contato com nossa equipe!
         </p>
         <div>
-            <img src="/home/max/DIO/aula_html5_css3/images/kisspng-computer-icons-email-share-icon-clip-art-indonesia-bali-5b4fb592da9a81.7659420615319504828954.jpg" width="30px">
+            <img src="/home/max/DIO/aula_html5_css3/imagens/Icone-email.png" class="logo">
         <p><a href="mailto:maxssilva@yahoo.com.br">maxssilva@yahoo.com.br</a></p><!--a tag href="mailto..." 
             traz o endereço para o qual o usuário retornará o contato via e-mail, 
             diretamente pelo seu app de mail-->
     </div>
     <div>
-        <img src="/home/max/DIO/aula_html5_css3/9966dba2772a50f8b63cd1a07db311a9.jpg" width="30px">
+        <img src="/home/max/DIO/aula_html5_css3/imagens/whatsapp.png" class="logo">
         <p><a href="tel:34992329193"> (34) 99232-9193</a></p><!--o mesmo ocorre na tag href="telxxxxxx", 
             que redireciona para o app de chamadas-->
     </div>
@@ -83,7 +89,7 @@
     </section>
     
     <footer> 
-        <p>desenvolvido por Max Silva
+        <p>Desenvolvido por Max Silva
         </p>
     </footer>
     
